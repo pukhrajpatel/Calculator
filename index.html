@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <!--<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">-->
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+        <title>A simple calculator</title>
+    </head>
+    <body>
+            <div id="calculator">
+                <div id="result">
+                    <div class = "history"></div>
+                    <div class="display-1" id = "disp1">0</div>
+                    <div class="display-2" id = "disp2">0</div>
+                    <div class="temp-result" id = "temp"></div>
+                </div>
+                <div class = "line" id = "line"></div>
+                    <div id="keyboard">
+                    <button class="button clear" id="clear">C</button>
+                    <button class="button last-clear" id="backspace">
+                        <img src="ex3.jpg" class = "img_backs">
+                        <!--<i class="uil uil-cancel"></i></button>-->
+                    <button class="button operator" id="%">%</button>
+                    <button class="button operator" id="/">/</button>  <!-- &#247;   -->
+                    <button class="button number" id="7">7</button>
+                    <button class="button number" id="8">8</button>
+                    <button class="button number" id="9">9</button>
+                    <button class="button operator" id="*">x</button>  <!--&times;-->
+                    <button class="button number" id="4">4</button>
+                    <button class="button number" id="5">5</button>
+                    <button class="button number" id="6">6</button>
+                    <button class="button operator" id="-">-</button>
+                    <button class="button number" id="1">1</button>
+                    <button class="button number" id="2">2</button>
+                    <button class="button number" id="3">3</button>
+                    <button class="button operator" id="+">+</button>
+                    <button class="button empty" id="expand">
+                        <img src="ex1.jpg" class = "img_expand">
+                        <!--<i class="uil uil-expand-arrows-alt expend-icon"></i>-->
+                    </button>
+                    <button class="button number" id="0">0</button>
+                    <button class="button number dot" id=".">.</button>
+                    <button class="button equal" id="=">=</button>
+                </div>
+                
+                <div class = "c2_container" id  = "toggle">
+                    <button class="button1 2nd two" id="2nd">2nd</button>
+                    <button class="button1 rad two" id="rad">rad</button>
+                    <button class="button1 operator1 two" id="sin">sin</button>
+                    <button class="button1 operator1 two" id="cos">cos</button>
+                    <button class="button1 operator1 two" id="tan">tan</button>
+                    <button class="button1 operator2 two" id="xPy">X<sup>y</sup></button>
+                    <button class="button1 operator1 two" id="log">log</button>
+                    <button class="button1 operator1 two" id="ln">ln</button>
+                    <button class="button1 l_b two" id="l_b">(</button>
+                    <button class="button1 r_b two" id="r_b">)</button>
+                    <button class="button1 operator2 two" id="xR"><msqrt> X </msqrt></button>
+                    <button class="button1 clear1" id="clear">C</button>
+                    <button class="button1 last-clear1" id="backspace">
+                        <img src="ex3.jpg" class = "img_backs">
+                        <!--<i class="uil uil-cancel"></i></button>-->
+                    <button class="button1 operator" id="%">%</button>
+                    <button class="button1 operator" id="/">/</button>  <!-- &#247;   -->
+                    <button class="button1 operator2 two" id="!">X!</button>
+
+                    <button class="button1 number" id="7">7</button>
+                    <button class="button1 number" id="8">8</button>
+                    <button class="button1 number" id="9">9</button>
+                    <button class="button1 operator" id="*">x</button>  <!--&times;-->
+                    <button class="button1 operator2 two" id="1_x"><sup>1</sup>&frasl;<sub>x</sub></button>
+                    <button class="button1 number" id="4">4</button>
+                    <button class="button1 number" id="5">5</button>
+                    <button class="button1 number" id="6">6</button>
+                    <button class="button1 operator" id="-">-</button>
+                    <button class="button1 pi two" id="pi">&pi;</button>
+
+                    <button class="button1 number" id="1">1</button>
+                    <button class="button1 number" id="2">2</button>
+                    <button class="button1 number" id="3">3</button>
+                    <button class="button1 operator" id="+">+</button>
+                    <button class="button1 empty" id="shrink">
+                        <!--<i class="uil uil-compress-arrows"></i>-->
+                        <img src="ex4.jpg" class = "img_expand">
+                        <!--<i class="uil uil-expand-arrows-alt expend-icon"></i>-->
+                    </button>
+                    <button class="button1 e" id="e">e</button>
+                    <button class="button1 number" id="0">0</button>
+                    <button class="button1 number dot" id=".">.</button>
+                    <button class="button1 equal1" id="=">=</button>
+                </div>
+
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>

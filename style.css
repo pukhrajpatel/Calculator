@@ -1,0 +1,211 @@
+:root{
+    --bg-color: hsl(328, 100%, 100%);
+    --b-color: hsl(22, 100%, 49%);
+}
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: var(--bg-color);
+    margin: 0;
+    width: 410px;
+    height: 790px;
+    position: fixed;
+}
+
+#calculator{
+    width: 410px;
+    height: 814px;
+    background-color: var(--bg-color);
+   /* margin: 0 auto;*/
+    position: fixed;
+    
+    transform: scale(1)
+}
+#result{
+    height: 380px;
+    text-align: right;
+    position: relative;
+    padding-right: 10px;
+}
+.history{
+    height: 260px;
+    
+}
+.display-1 {
+    opacity: 0.4;
+    font-size: 30px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+.display-2{
+    height: 50px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.temp-result {
+    position: absolute;
+    height: 30px;
+    font-size: 20px;
+    opacity: 0.3;
+    left: 10px;
+  }
+
+
+.button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 10px 20px 3px 20px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    /*font-weight: bold;  */
+    font-size: 30px;
+    align-items: center;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+
+#keyboard{
+    height: 434px;
+    padding: 4px 2px 0px 7px
+}
+
+.button:active{
+    font-size: 15px;
+}
+.button:focous{
+    outline: 0;
+}
+
+
+.button:nth-child(1), .button:nth-child(2), .button:nth-child(3){
+    color: var(--b-color);
+}
+.button:nth-child(4){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button:nth-child(8){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button:nth-child(12){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button:nth-child(16){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button:nth-child(20){
+    font-size: 40px;
+    background-color: var(--b-color);
+    color: var(--bg-color)
+}
+.button:nth-child(17){
+    color: var(--b-color)
+}
+
+.line{
+    height:0.5px;
+    background-color: hsl(328, 100%, 0%)
+}
+
+.img_expand{
+    height: 30px;
+    width: 30px;
+    transform: rotate(180deg)
+}
+
+.img_expand:active{
+    height: 20px;
+    width: 20px;
+}
+.img_backs{
+    height: 30px;
+    width: 40px;
+    transform: rotate(180deg) 
+}
+.img_backs:active{
+    height: 20px;
+    width: 25px;
+}
+
+/* Second calc;*/
+
+
+.c2_container{
+    height: 500px;
+    padding: 2px 2px 0px 7px 
+}
+.button1{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 8px 15px 20px 20px;
+    border-radius: 50%;
+    border-width: 0;
+    /*font-weight: bold;  */
+    font-size: 30px;
+    align-items: center;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.button1:nth-child(12), .button1:nth-child(14), .button1:nth-child(15), .button1:nth-child(20),
+.button1:nth-child(25), .button1:nth-child(30){
+    color: var(--b-color);
+}
+.button1:nth-child(35){
+    font-size: 40px;
+    background-color: var(--b-color);
+    color: var(--bg-color)
+}
+.button1:nth-child(15){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button1:nth-child(20){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button1:nth-child(25){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button1:nth-child(31){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.button1:nth-child(30){
+    font-size: 40px;
+    color: var(--b-color);
+}
+.two{
+    color: rgb(87, 86, 86);
+    font-size: 25px;
+}
+
+.button1:active{
+    font-size: 15px;
+}
+.button1:focous{
+    outline: 0;
+}
+
+/* show menu */
+
+.show-menu{
+    /*bottom: 0px;*/
+    transform: translateY(-525px);
+}
+.show-menu1{
+    transform: translateY(500px);
+}
+.trans{
+    transform: translateY(-82px);
+}
